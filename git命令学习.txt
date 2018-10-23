@@ -1,9 +1,9 @@
 git 命令使用：
 git add . //添加本地所有修改的文件--本地暂存区 indexDB
 
-git commit -m '/**注释**/' //添加文件到本地仓库区--repositoryDB
+git commit -m '/**注释**/' //添加文件到本地仓库区，这个注解必须加--repositoryDB
 
-git pull //提交到远程git仓库--remoteDB
+git push //提交到远程git仓库--remoteDB
 
 
 .......................
@@ -11,3 +11,9 @@ git pull //提交到远程git仓库--remoteDB
 git diff //查看文件的修改内容
 
 gig log //查看文件的修改提交日志
+
+----------回滚提交的内容-----------
+
+git reset --hard <版本号> //这个版本号必须写，可以通过git log 查看到版本号commit:68383a...,对应前四位的内容。
+
+cat <文件名> //查看文件的内容
