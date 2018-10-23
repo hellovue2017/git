@@ -1,4 +1,13 @@
 git 命令使用：
-git add . //添加本地修改的文件
+git add . //添加本地所有修改的文件--本地暂存区 indexDB
 
-git commit -m '/**注释**/' //添加文件到
+git commit -m '/**注释**/' //添加文件到本地仓库区--repositoryDB
+
+git pull //提交到远程git仓库--remoteDB
+
+
+.......................
+
+git diff //查看文件的修改内容
+
+gig log //查看文件的修改提交日志
