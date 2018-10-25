@@ -55,3 +55,5 @@ git reflog //记录提交过的命令历史，关闭了后再打开任然可以�
 
  git branch --set-upstream-to=origin/<分支> dev //当前分支跟踪到其他分支，一般是跟踪到master主分支，在其他分可以更新master上分支的代码。
 
+
+ git log -- graph //查看分支合并图。
