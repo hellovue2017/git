@@ -59,3 +59,8 @@ git reflog //记录提交过的命令历史，关闭了后再打开任然可以�
  
  git log -- graph //查看分支合并图。
 
+ 解决冲突的方法：
+  i.保存修改的文件内容
+  ii. git add .//添加到暂存区
+  iii. git commit -m <注解>//提交到缓存区
+  iiii. git push //提交到远程分支
